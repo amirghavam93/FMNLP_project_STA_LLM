@@ -10,7 +10,7 @@ from keywords_extractor import role_kws_extraction_single
 
 dataset = "newsgroups"
 strategy = "global"
-methods = ['de', 're', 'in', 'sw', 're']
+methods = ['de', 're', 'in', 'sw', 'se'] #deletion, replacement, inssertion, swaping, selection
 p = 0.1
 bar = "Q2"
 n_aug = 1
