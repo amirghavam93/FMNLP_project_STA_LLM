@@ -1,8 +1,8 @@
 # FMNLP_project_STA_LLM        
 This repository is for the final project of my FMNLP course.          
-![FMNLP_final_report_Ghavam 2-1](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/e747abf7-88d3-4edb-8cdf-d11884a9456c)
-![FMNLP_final_report_Ghavam 2-2](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/3bcd911a-2828-4b1b-838a-1529f39f9a56)
-![FMNLP_final_report_Ghavam 2-3](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/5a01fdc3-cb58-43f0-8a6b-52f94abde1a1)
-![FMNLP_final_report_Ghavam 2-4](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/d46b6bf5-168e-4d89-b10a-e02ff71687b9)
-![FMNLP_final_report_Ghavam 2-5](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/1560c645-45b8-4fb3-921c-0b3127c9a491)
-![FMNLP_final_report_Ghavam 2-6](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/88b68534-498b-484a-8ee1-dffa754ab951)
+![FMNLP_final_report_Ghavam-1](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/1b0c847b-e219-4814-8c71-8900fc6c807f)
+![FMNLP_final_report_Ghavam-2](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/aa0ce946-ae95-41bd-bbaa-8f4a428e2652)
+![FMNLP_final_report_Ghavam-3](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/4193529e-4fa6-4adc-9630-796529116030)
+![FMNLP_final_report_Ghavam-4](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/0bc6b1e3-2e30-4189-acaf-50f62e1f7af7)
+![FMNLP_final_report_Ghavam-5](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/92f368b8-8b05-4da0-91d0-f233dddce043)
+![FMNLP_final_report_Ghavam-6](https://github.com/amirghavam93/FMNLP_project_STA_LLM/assets/75758162/dcfb820f-b2cc-4db4-b9d0-0e549fdb3965)
