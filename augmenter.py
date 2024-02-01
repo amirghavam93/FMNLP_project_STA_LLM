@@ -155,24 +155,24 @@ class TextAugmenter:
         n = max(1, int(p * len(words)))
         assert mode in ['random', 'selective', 'given'], "mode must be 'random', 'selective' or 'given'"
         new_words = words.copy()
-        insertion_res = []  # 记录插入的过程
+        insertion_res = []  
         if mode == 'random':
             for i in range(n):
                 word_to_insert = self.add_word(new_words, mode)
                 insertion_res.append(word_to_insert)
         else:
             if mode == 'selective':
-                # selected_words不一定都是本文中的，可能是给定的一个大集合，所以我们要先筛选出在本文中的词
+  
                 selected_words = list(set(selected_words).intersection(set(words)))
             random.shuffle(selected_words)
-            if n > len(selected_words):  # 当given_words的数量不够时，用random来凑
+            if n > len(selected_words): 
                 for given_word in selected_words:
                     word_to_insert = self.add_word(new_words, mode, given_word)
                     insertion_res.append(word_to_insert)
                 for i in range(n - len(selected_words)):
                     word_to_insert = self.add_word(new_words, 'random')
                     insertion_res.append(word_to_insert)
-            else:  # 否则，只插入n个
+            else: 
                 for i in range(n):
                     word_to_insert = self.add_word(new_words, mode, selected_words[i])
                     insertion_res.append(word_to_insert)
@@ -182,12 +182,12 @@ class TextAugmenter:
 
     def add_word(self, words, mode, given_word=None):
         random_idx = random.randint(0, len(words) - 1)
-        if mode == 'given' and given_word is not None:  # 此时插入的就是这个given word
+        if mode == 'given' and given_word is not None: 
             word_to_insert = given_word
             insert_pair = ('', given_word)
-        elif mode == 'selective' and given_word is not None:  # 此时插入的是这个given word的近义词
+        elif mode == 'selective' and given_word is not None:  
             similars = self.get_similar_words(given_word)
-            if len(similars) == 0:  # 如果当前这个词没有近义词，直接跳过
+            if len(similars) == 0:  
                 return ('', '')
             word_to_insert = random.choice(similars)
             insert_pair = (given_word, word_to_insert)
